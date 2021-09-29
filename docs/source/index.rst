@@ -33,6 +33,7 @@ Prérequis
 Configurer l'authentification par PKI côté STA
 ==============================================
 - Télécharger les certificats de l'autorité depuis le site IGC-Santé :
+
   - Pour les cartes de test:
   
    .. raw:: html
