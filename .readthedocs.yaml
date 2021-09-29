@@ -6,7 +6,9 @@ python:
   install:
     - method: pip
       path: .
-    - requirements: sphinxcontrib-images
+    - method: pip
+      extra_requirements:
+        - sphinxcontrib-images
 
 sphinx:
   fail_on_warning: true
