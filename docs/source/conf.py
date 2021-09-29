@@ -17,11 +17,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinxcontrib.images',
-    'sphinx_copybutton',
-    'sphinx_rtd_theme',
-    'sphinx_tabs.tabs',
-    'sphinxcontrib.blockdiag'
 ]
 
 intersphinx_mapping = {
