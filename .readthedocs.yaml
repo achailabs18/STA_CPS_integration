@@ -6,6 +6,7 @@ python:
   install:
     - method: pip
       path: .
+    - method: sphinxcontrib-images
 
 sphinx:
   fail_on_warning: true
