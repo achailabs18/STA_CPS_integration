@@ -13,7 +13,7 @@ Configurer SafeNet Trusted Access (STA) pour supporter les cartes CPS/CPE/CPA en
 Introduction
 ============
 
-Ce guide vous guidera à configurer SafeNet Trusted Access (STA) pour supporter les cartes CPS/CPE/CPA en tant que méthodes d'authentification forte permettant aux utilisateur d'accéder aux applications intégrées avec STA.
+Cette documentation vous guidera à configurer SafeNet Trusted Access (STA) pour supporter les cartes CPS/CPE/CPA en tant que méthodes d'authentification forte permettant aux utilisateur d'accéder aux applications intégrées avec STA.
 
 Prérequis
 =========
