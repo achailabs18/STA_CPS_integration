@@ -19,7 +19,7 @@ Prérequis
 =========
 
   - Un tenant SafeNet Trusted Access (STA) **Premium**
-  - **Cryptolib CPS** installé sur le poste de travail. **Cryptolib CPS** est un logiciel fourni par l'**Agence du Numérique en Santé** (**ANS**) qui permet l’interfaçage entre des applications informatiques et la carte CPS/CPE/CPA. Pour télécharger **Cryptolib CPS**:
+  - **Cryptolib CPS** installé sur le poste de travail. **Cryptolib CPS** est un logiciel fourni par l'**Agence du Numérique en Santé** (**ANS**) qui permet l’interfaçage entre des applications informatiques et la carte CPS/CPE/CPA. Pour télécharger **Cryptolib CPS** :
 
    .. raw:: html
    
@@ -27,7 +27,22 @@ Prérequis
 
 
   - Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
-     - soit manuellement via la console d'administrateur / SCIM API STA
-     - soit automatiquement par l'agent de synchronisation LDAP
+    - soit manuellement via la console d'administrateur / SCIM API STA
+    - soit automatiquement par l'agent de synchronisation LDAP
+
+Configurer l'authentification par PKI côté STA
+==============================================
+- Télécharger les certificats de l'autorité depuis le site IGC-Santé :
+  - Pour les cartes de test:
+  
+   .. raw:: html
+   
+    <a href="http://igc-sante.esante.gouv.fr/AC%20TEST/Chaine_de_certification-IGC-Sante-TEST.p7b" target="_blank">http://igc-sante.esante.gouv.fr/AC%20TEST/Chaine_de_certification-IGC-Sante-TEST.p7b</a>
+
+  - Pour les cartes de production:
+  
+   .. raw:: html
+   
+    <a href="http://igc-sante.esante.gouv.fr/AC/Chaine_de_certification-IGC-Sante.p7b" target="_blank">http://igc-sante.esante.gouv.fr/AC/Chaine_de_certification-IGC-Sante.p7b</a>
 
 
