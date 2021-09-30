@@ -13,10 +13,6 @@ version = '0.1.0'
 
 extensions = [
     'sphinxcontrib.images',
-    'sphinx_copybutton',
-    'sphinx_rtd_theme',
-    'sphinx_tabs.tabs',
-    'sphinxcontrib.blockdiag',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
