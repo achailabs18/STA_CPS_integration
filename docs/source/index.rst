@@ -49,5 +49,5 @@ Configurer l'authentification par PKI côté STA
 
   - Ouvrir le fichier .p7b
 
-.. thumbnail:: doc/source/_images/CAp7b_1.png
+.. thumbnail:: ./doc/source/_images/CAp7b_1.png
 
