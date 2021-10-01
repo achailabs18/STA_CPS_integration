@@ -7,7 +7,7 @@ Configurer SafeNet Trusted Access (STA) pour supporter les cartes CPS/CPE/CPA en
 ===========================================================================================================================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :hidden:
 
 Introduction
