@@ -18,18 +18,17 @@ Cette documentation vous guidera à configurer SafeNet Trusted Access (STA) pour
 Prérequis
 =========
 
-  - Un tenant SafeNet Trusted Access (STA) **Premium**
-  - **Cryptolib CPS** installé sur le poste de travail. **Cryptolib CPS** est un logiciel fourni par l'**Agence du Numérique en Santé** (**ANS**) qui permet l’interfaçage entre des applications informatiques et la carte CPS/CPE/CPA. Pour télécharger **Cryptolib CPS** :
+- Un tenant SafeNet Trusted Access (STA) **Premium**
+- **Cryptolib CPS** installé sur le poste de travail. **Cryptolib CPS** est un logiciel fourni par l'**Agence du Numérique en Santé** (**ANS**) qui permet l’interfaçage entre des applications informatiques et la carte CPS/CPE/CPA. Pour télécharger **Cryptolib CPS** :
 
-   .. raw:: html
+  .. raw:: html
    
-    <a href="https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows" target="_blank">https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows</a>
+  <a href="https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows" target="_blank">https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows</a>
 
 
-  - Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
-
-    - soit manuellement via la console d'administrateur / SCIM API STA
-    - soit automatiquement par l'agent de synchronisation LDAP
+- Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
+  - soit manuellement via la console d'administrateur / SCIM API STA
+  - soit automatiquement par l'agent de synchronisation LDAP
 
 Configurer l'authentification par PKI côté STA
 ==============================================
