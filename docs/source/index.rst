@@ -48,6 +48,7 @@ Configurer l'authentification par PKI côté STA
 
 
   - Ouvrir le fichier .p7b
+    - a. Double-cliquer le certificat **AC IGC-SANTE ELEMENTAIRE PERSONNES**
   
   .. thumbnail:: _images/CAp7b_1.PNG
   
