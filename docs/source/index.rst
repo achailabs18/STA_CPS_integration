@@ -27,6 +27,7 @@ Prérequis
 
 
   - Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
+
     - soit manuellement via la console d'administrateur / SCIM API STA
     - soit automatiquement par l'agent de synchronisation LDAP
 
@@ -48,6 +49,7 @@ Configurer l'authentification par PKI côté STA
 
 
   - Ouvrir le fichier .p7b
+
     - a. Double-cliquer le certificat **AC IGC-SANTE ELEMENTAIRE PERSONNES**
   
   .. thumbnail:: _images/CAp7b_1.PNG
