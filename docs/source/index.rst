@@ -51,6 +51,7 @@ Configurer l'authentification par PKI côté STA
   
 .. thumbnail:: _images/CAp7b_1.PNG
   
+
   - a. Double-cliquer le certificat **AC IGC-SANTE ELEMENTAIRE PERSONNES**
   - b. xxx
   
