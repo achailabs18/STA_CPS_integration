@@ -25,6 +25,7 @@ Prérequis
   
    <a href="https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows" target="_blank">https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows</a>
 
+
 - Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
 
   - soit manuellement via la console d'administrateur / SCIM API STA
@@ -49,9 +50,9 @@ Configurer l'authentification par PKI côté STA
 
   - Ouvrir le fichier .p7b
 
-    - a. Double-cliquer le certificat **AC IGC-SANTE ELEMENTAIRE PERSONNES**
+    a. Double-cliquer le certificat **AC IGC-SANTE ELEMENTAIRE PERSONNES**
   
-  .. thumbnail:: _images/CAp7b_1.PNG
-  
+   .. thumbnail:: _images/CAp7b_1.PNG
+
     - a. Double-cliquer le certificat **AC IGC-SANTE ELEMENTAIRE PERSONNES**
     
