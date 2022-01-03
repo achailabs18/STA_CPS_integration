@@ -54,8 +54,8 @@ Configurer l'authentification par PKI côté STA
     ..
 
   b. test :
-      .. thumbnail:: _images/CertElementaire1.png
-      ..
+    .. thumbnail:: _images/CertElementaire1.png
+    ..
 
 
 3. try something
