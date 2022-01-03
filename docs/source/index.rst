@@ -13,7 +13,7 @@ Configurer SafeNet Trusted Access (STA) pour supporter les cartes CPS/CPE/CPA en
 Introduction
 ============
 
-Cette documentation vous guidera à configurer SafeNet Trusted Access (STA) pour supporter les cartes CPS/CPE/CPA en tant que méthodes d'authentification forte permettant aux utilisateur d'accéder aux applications intégrées avec STA.
+Cette documentation vous guidera à configurer **SafeNet Trusted Access (STA)** pour supporter les **cartes CPS/CPE/CPA** en tant que méthodes d'authentification forte.
 
 Prérequis
 =========
@@ -61,7 +61,6 @@ Configurer l'authentification par PKI côté STA
   c. Cliquer **Next** puis sélectionner l'option **PKCS #7 Certificates (.P7B)**:
     .. thumbnail:: _images/CertP7B.png
       :width: auto
-      :height: auto
     ..
 
   d. Cliquer **Next** puis sélectionner l'endroit pour sauvegarder le fichier:
