@@ -70,7 +70,6 @@ Configurer l'authentification par PKI côté STA
 
   e. Cliquer **Next** puis **Finish**.
 
-
 3. Extraire et sauvegarder le certificat STANDARD
 
   a. Double-cliquer le fichier .p7b téléchargé dans l'étape précédent :
@@ -86,6 +85,26 @@ Configurer l'authentification par PKI côté STA
 
   d. Cliquer **Next** puis sélectionner l'endroit pour sauvegarder le fichier :
     .. thumbnail:: _images/CertStandard2.png
+      :width: 300px
+    ..
+
+  e. Cliquer **Next** puis **Finish**.
+
+4. Extraire et sauvegarder le certificat FORT
+
+  a. Double-cliquer le fichier .p7b téléchargé dans l'étape précédent :
+
+  b. Sélectionner le certificat **AC IGC-SANTE ELEMENTAIRE FORT** & **AC RACINE IGC-SANTE FORT**. Puis cliquer **Action** > **All Tasks** > **Export…** :
+    .. thumbnail:: _images/CertFort1.png
+    ..
+
+  c. Cliquer **Next** puis sélectionner l'option **PKCS #7 Certificates (.P7B)** :
+    .. thumbnail:: _images/CertP7B.png
+      :width: 300px
+    ..
+
+  d. Cliquer **Next** puis sélectionner l'endroit pour sauvegarder le fichier :
+    .. thumbnail:: _images/CertFort2.png
       :width: 300px
     ..
 
