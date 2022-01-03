@@ -19,7 +19,7 @@ Prérequis
 =========
 
 - Un tenant SafeNet Trusted Access (STA) **Premium**
-- **Cryptolib CPS** installé sur le poste de travail. **Cryptolib CPS** est un logiciel fourni par l'**Agence du Numérique en Santé** (**ANS**) qui permet l’interfaçage entre des applications informatiques et la carte CPS/CPE/CPA. Pour télécharger **Cryptolib CPS** :
+- **Cryptolib CPS** installé sur le poste de travail. **Cryptolib CPS** est un logiciel fourni par l'**Agence du Numérique en Santé** (**ANS**) qui permet l’interfaçage entre des applications informatiques et les cartes CPS/CPE/CPA. Pour télécharger **Cryptolib CPS** :
 
   .. raw:: html
 
@@ -37,6 +37,7 @@ Prérequis
 Configurer l'authentification par PKI côté STA
 ==============================================
 1. Télécharger les certificats de l'autorité depuis le site IGC-Santé
+---------------------------------------------------------------------
 
   - Pour les cartes de test :
   
@@ -52,7 +53,7 @@ Configurer l'authentification par PKI côté STA
 
 2. Extraire et sauvegarder le certificat ELEMENTAIRE
 
-  a. Double-cliquer le fichier .p7b téléchargé dans l'étape précédent :
+  a. Double-cliquer le fichier .p7b téléchargé dans l'étape 1 :
 
   b. Sélectionner le certificat **AC IGC-SANTE ELEMENTAIRE PERSONNES** & **AC RACINE IGC-SANTE ELEMENTAIRE**. Puis cliquer **Action** > **All Tasks** > **Export…** :
     .. thumbnail:: _images/CertElementaire1.png
@@ -72,7 +73,7 @@ Configurer l'authentification par PKI côté STA
 
 3. Extraire et sauvegarder le certificat STANDARD
 
-  a. Double-cliquer le fichier .p7b téléchargé dans l'étape précédent :
+  a. Double-cliquer le fichier .p7b téléchargé dans l'étape 1 :
 
   b. Sélectionner le certificat **AC IGC-SANTE ELEMENTAIRE STANDARD** & **AC RACINE IGC-SANTE STANDARD**. Puis cliquer **Action** > **All Tasks** > **Export…** :
     .. thumbnail:: _images/CertStandard1.png
@@ -92,7 +93,7 @@ Configurer l'authentification par PKI côté STA
 
 4. Extraire et sauvegarder le certificat FORT
 
-  a. Double-cliquer le fichier .p7b téléchargé dans l'étape précédent :
+  a. Double-cliquer le fichier .p7b téléchargé dans l'étape 1 :
 
   b. Sélectionner le certificat **AC IGC-SANTE ELEMENTAIRE FORT** & **AC RACINE IGC-SANTE FORT**. Puis cliquer **Action** > **All Tasks** > **Export…** :
     .. thumbnail:: _images/CertFort1.png
