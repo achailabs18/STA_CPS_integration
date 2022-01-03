@@ -61,7 +61,6 @@ Configurer l'authentification par PKI côté STA
   c. Cliquer **Next** puis sélectionner l'option **PKCS #7 Certificates (.P7B)** :
     .. thumbnail:: _images/CertP7B.png
       :width: 300px
-      :height: 100px
     ..
 
   d. Cliquer **Next** puis sélectionner l'endroit pour sauvegarder le fichier :
