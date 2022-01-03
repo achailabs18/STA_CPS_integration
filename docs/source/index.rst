@@ -13,13 +13,13 @@ Configurer SafeNet Trusted Access (STA) pour supporter les cartes CPS/CPE/CPA en
 Introduction
 ============
 
-Cette documentation vous guidera à configurer **SafeNet Trusted Access (STA)** pour supporter les **cartes CPS/CPE/CPA** en tant que méthodes d'authentification forte.
+Cette documentation vous guidera à configurer **SafeNet Trusted Access (STA)** pour supporter les **cartes CPS/CPE/CPA** en tant que méthodes d'authentification fortes.
 
 Prérequis
 =========
 
-- Un tenant SafeNet Trusted Access (STA) **Premium**
-- **Cryptolib CPS** installé sur le poste de travail. **Cryptolib CPS** est un logiciel fourni par l'**Agence du Numérique en Santé** (**ANS**) qui permet l’interfaçage entre des applications informatiques et les cartes CPS/CPE/CPA. Pour télécharger **Cryptolib CPS** :
+- Un tenant **SafeNet Trusted Access (STA) Premium**
+- **Cryptolib CPS** installé sur le poste de travail d'utilisateur. **Cryptolib CPS** est un logiciel fourni par l'**Agence du Numérique en Santé** (**ANS**) qui permet l’interfaçage entre des applications informatiques et les cartes CPS/CPE/CPA. Pour télécharger **Cryptolib CPS** :
 
   .. raw:: html
 
@@ -40,10 +40,10 @@ Prérequis
 
    <a href="https://www.thalesdocs.com/sta/Content/STA/Users/AddUsrs.htm" target="_blank">https://www.thalesdocs.com/sta/Content/STA/Users/AddUsrs.htm</a>
 
-Configurer l'authentification par PKI côté STA
-==============================================
-1. Télécharger les certificats de l'autorité depuis le site IGC-Santé
----------------------------------------------------------------------
+Configurer l'authentification par certificat dans STA
+=====================================================
+1. Télécharger & sauvegarder les certificats d'autorité depuis le site IGC-Santé
+--------------------------------------------------------------------------------
 
   - Pour les cartes de test :
   
@@ -81,7 +81,7 @@ Configurer l'authentification par PKI côté STA
 -------------------------------------------------
   a. Double-cliquer le fichier .p7b téléchargé dans l'étape 1 :
 
-  b. Sélectionner le certificat **AC IGC-SANTE ELEMENTAIRE STANDARD** & **AC RACINE IGC-SANTE STANDARD**. Puis cliquer **Action** > **All Tasks** > **Export…** :
+  b. Sélectionner le certificat **AC IGC-SANTE STANDARD PERSONNES** & **AC RACINE IGC-SANTE STANDARD**. Puis cliquer **Action** > **All Tasks** > **Export…** :
     .. thumbnail:: _images/CertStandard1.png
     ..
 
@@ -101,7 +101,7 @@ Configurer l'authentification par PKI côté STA
 ---------------------------------------------
   a. Double-cliquer le fichier .p7b téléchargé dans l'étape 1 :
 
-  b. Sélectionner le certificat **AC IGC-SANTE ELEMENTAIRE FORT** & **AC RACINE IGC-SANTE FORT**. Puis cliquer **Action** > **All Tasks** > **Export…** :
+  b. Sélectionner le certificat **AC IGC-SANTE FORT PERSONNES** & **AC RACINE IGC-SANTE FORT**. Puis cliquer **Action** > **All Tasks** > **Export…** :
     .. thumbnail:: _images/CertFort1.png
     ..
 
@@ -131,16 +131,16 @@ Configurer l'authentification par PKI côté STA
 
   c. Sélectionner le fichier .p7b (**ELEMENTAIRE**) généré dans l'étape 2.
 
-  d. Sélectionner **Email address** comme **USER ATTRIBUTE** dans **User Mapping** > **Save** :
+  d. Sélectionner **Email address** comme **CERTIFICATE ATTRIBUTE** & **USER ATTRIBUTE** dans **User Mapping** > **Save** :
     .. thumbnail:: _images/STA_CBA2.png
       :width: 300px
     ..
 
-  e. Répéter les étapes **a** à **d** pour les certificats de l'autorité **STANDARD** (l'étape 3) & **FORT** (l'étape 4).
+  e. Répéter les étapes **a** à **d** pour les certificats d'autorité **STANDARD** (l'étape 3) & **FORT** (l'étape 4).
 
 6. Créer une politique d'accès avec l'authentification par certificat
 ---------------------------------------------------------------------
-Nous allons créer une politique d'accès avec l'authentification par certificat (**cartes CPS/CPE/CPA**) activée. Dans cet exemple, nous allons activier cette méthode d'authentification pour le portail d'utilisateur STA pour tous les utilisateurs du tenant STA.
+Nous allons créer une politique d'accès avec l'authentification par certificat (**cartes CPS/CPE/CPA**) activée. Dans cet exemple, nous allons activier cette méthode d'authentification pour le portail d'utilisateur STA pour tous les utilisateurs du tenant.
 
   a. Cliquer sur l'icône **Policies** puis ajouter une nouvelle politique d'accès en cliquant sur **+** :
     .. thumbnail:: _images/STA_CBA3.png
@@ -171,8 +171,7 @@ Nous allons donc tester l'authentification au portail d'utilisateur STA avec une
         :width: 300px
       ..
 
-  b. Ouvrir un nouvel onglet ou un navigateur web et connectez-vous à l'URL de l'étape précédent.
+  b. Ouvrir un nouvel onglet ou un navigateur web et connectez-vous à l'URL du portail d'utilisateur.
   c. Insérer la carte CPS/CPE/CPA dans un lecteur connecté au poste de travail.
   d. Saisir le nom d'utilisateur puis **LOGIN**.
   e. Saisir le code PIN de la carte puis **OK**.
-
