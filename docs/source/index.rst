@@ -131,3 +131,24 @@ Configurer l'authentification par PKI côté STA
     ..
 
   e. Répéter les étapes **a** à **d** pour les certificats de l'autorité **STANDARD** (l'étape 3) & **FORT** (l'étape 4).
+
+6. Créer une politique d'accès avec l'authentification par certificat
+---------------------------------------------------------------------
+Nous allons créer une politique d'accès avec l'authentification par certificat (**cartes CPS/CPE/CPA**) activée. Dans cet exemple, nous allons activier cette méthode d'authentification pour le portail d'utilisateur STA pour tous les utilisateurs du tenant STA.
+
+  a. Cliquer sur l'icône **Policies** puis ajouter une nouvelle politique d'accès en cliquant sur **+** :
+    .. thumbnail:: _images/STA_CBA3.png
+      :width: 300px
+    ..
+
+  b. Renseigner les détails de la nouvelle politique d'accès :
+    - Donner un nom ("Cartes CPS CPE CPA" par ex.)
+    - Sélectionner "All users"
+    - Sélectionner l'application "User Portal"
+    - Sélectionner la méthode "Certificate-Based Authentication (CBA)"
+    - Sélectionner "Every access attempt"
+      .. thumbnail:: _images/STA_CBA4.png
+        :width: 300px
+      ..
+
+  c. **Save**
