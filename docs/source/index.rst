@@ -24,7 +24,7 @@ Prérequis
   .. raw:: html
   
    <a href="https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows" target="_blank">https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows</a>
-
+  ..
 
 - Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
 
@@ -58,12 +58,13 @@ Configurer l'authentification par PKI côté STA
     .. thumbnail:: _images/CertElementaire1.png
     ..
 
-  c. Cliquer **Next** puis sélectionner l'option **PKCS #7 Certificates (.P7B)**:
+  c. Cliquer **Next** puis sélectionner l'option **PKCS #7 Certificates (.P7B)** :
     .. thumbnail:: _images/CertP7B.png
-      :width: auto
+      :width: 300px
+      :height: 100px
     ..
 
-  d. Cliquer **Next** puis sélectionner l'endroit pour sauvegarder le fichier:
+  d. Cliquer **Next** puis sélectionner l'endroit pour sauvegarder le fichier :
     .. thumbnail:: _images/CertElementaire2.png
     ..
 
