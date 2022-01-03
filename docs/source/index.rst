@@ -52,7 +52,7 @@ Configurer l'authentification par PKI côté STA
     <a href="http://igc-sante.esante.gouv.fr/AC/Chaine_de_certification-IGC-Sante.p7b" target="_blank">http://igc-sante.esante.gouv.fr/AC/Chaine_de_certification-IGC-Sante.p7b</a>
 
 2. Extraire et sauvegarder le certificat ELEMENTAIRE
-
+----------------------------------------------------
   a. Double-cliquer le fichier .p7b téléchargé dans l'étape 1 :
 
   b. Sélectionner le certificat **AC IGC-SANTE ELEMENTAIRE PERSONNES** & **AC RACINE IGC-SANTE ELEMENTAIRE**. Puis cliquer **Action** > **All Tasks** > **Export…** :
@@ -72,7 +72,7 @@ Configurer l'authentification par PKI côté STA
   e. Cliquer **Next** puis **Finish**.
 
 3. Extraire et sauvegarder le certificat STANDARD
-
+-------------------------------------------------
   a. Double-cliquer le fichier .p7b téléchargé dans l'étape 1 :
 
   b. Sélectionner le certificat **AC IGC-SANTE ELEMENTAIRE STANDARD** & **AC RACINE IGC-SANTE STANDARD**. Puis cliquer **Action** > **All Tasks** > **Export…** :
@@ -110,3 +110,24 @@ Configurer l'authentification par PKI côté STA
     ..
 
   e. Cliquer **Next** puis **Finish**.
+
+5. Importer les certificats de l'autorité IGC-Santé dans STA
+------------------------------------------------------------
+  a. Connectez-vous à la console d'administrateur STA :
+   .. raw:: html
+   
+    <a href="https://sta.eu.safenetid.com" target="_blank">https://sta.eu.safenetid.com</a>
+
+  b. Cliquer sur l'icône **Settings** puis cliquer **Certificate-based Authentication** > **Add Issuing CA** :
+    .. thumbnail:: _images/STA_CBA1.png
+      :width: 300px
+    ..
+
+  c. Sélectionner le fichier .p7b (**ELEMENTAIRE**) généré dans l'étape 2.
+
+  d. Sélectionner **Email address** comme **USER ATTRIBUTE** dans **User Mapping** > **Save** :
+    .. thumbnail:: _images/STA_CBA2.png
+      :width: 300px
+    ..
+
+  e. Répéter les étapes **a** à **d** pour les certificats de l'autorité **STANDARD** & **FORT**.
