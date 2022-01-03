@@ -8,6 +8,7 @@ Configurer SafeNet Trusted Access (STA) pour supporter les cartes CPS/CPE/CPA en
 
 .. toctree::
    :maxdepth: 4
+   :hidden:
 
 Introduction
 ============
@@ -27,8 +28,11 @@ Prérequis
 
 - Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
 
-  - soit manuellement via la console d'administrateur / SCIM API STA
-  - soit automatiquement par l'agent de synchronisation LDAP
+  - soit manuellement via la console d'administrateur
+  - soit automatiquement
+
+    - par l'agent de synchronisation LDAP
+    - par les APIs SCIM/SOAP
 
 Configurer l'authentification par PKI côté STA
 ==============================================
@@ -49,8 +53,6 @@ Configurer l'authentification par PKI côté STA
 2. Extraire et sauvegarder le certificat ELEMENTAIRE
 
   a. Double-cliquer le fichier .p7b téléchargé dans l'étape précédent :
-    .. thumbnail:: _images/CAp7b_1.png
-    ..
 
   b. Sélectionner le certificat **AC IGC-SANTE ELEMENTAIRE PERSONNES** & **AC RACINE IGC-SANTE ELEMENTAIRE**. Puis cliquer **Action** > **All Tasks** > **Export…** :
     .. thumbnail:: _images/CertElementaire1.png
@@ -58,6 +60,7 @@ Configurer l'authentification par PKI côté STA
 
   c. Cliquer **Next** puis sélectionner l'option **PKCS #7 Certificates (.P7B)**:
     .. thumbnail:: _images/CertP7B.png
+      :align: left
     ..
 
   d. Cliquer **Next** puis sélectionner l'endroit pour sauvegarder le fichier:
