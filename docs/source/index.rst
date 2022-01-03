@@ -119,8 +119,7 @@ Configurer l'authentification par certificat dans STA
 
 5. Importer les certificats de l'autorité IGC-Santé dans STA
 ------------------------------------------------------------
-  a. Connectez-vous à la console d'administrateur STA :
-     `https://sta.eu.safenetid.com`
+  a. Connectez-vous à la console d'administrateur STA : https://sta.eu.safenetid.com
 
   b. Cliquer sur l'icône **Settings** puis cliquer **Certificate-based Authentication** > **Add Issuing CA** :
     .. thumbnail:: _images/STA_CBA1.png
