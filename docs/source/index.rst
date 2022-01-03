@@ -176,4 +176,4 @@ Nous allons donc tester l'authentification au portail d'utilisateur STA avec une
   d. Saisir le nom d'utilisateur puis **LOGIN**.
   e. Saisir le code PIN de la carte puis **OK**.
 
-.. _a link: https://sta.eu.safenetid.com
+    .. _a link: https://sta.eu.safenetid.com
