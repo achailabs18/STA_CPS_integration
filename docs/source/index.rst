@@ -57,14 +57,5 @@ Configurer l'authentification par PKI côté STA
       .. thumbnail:: _images/CertElementaire1.PNG
       ..
 
-  c. Cliquer **Next** puis sélectionner l'option **PKCS #7 Certificates (.P7B)**:
-      .. thumbnail:: _images/CertP7B.PNG
-      ..
-
-  d. Cliquer **Next** puis sélectionner l'endroit pour sauvegarder le fichier:
-      .. thumbnail:: _images/CertElementaire2.PNG
-      ..
-
-  e. Cliquer **Next** puis **Finish**.
 
 3. try something
