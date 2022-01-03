@@ -120,9 +120,7 @@ Configurer l'authentification par certificat dans STA
 5. Importer les certificats de l'autorité IGC-Santé dans STA
 ------------------------------------------------------------
   a. Connectez-vous à la console d'administrateur STA :
-   .. raw:: html
-   
-    <a href="https://sta.eu.safenetid.com" target="_blank">https://sta.eu.safenetid.com</a>
+     `https://sta.eu.safenetid.com`_
 
   b. Cliquer sur l'icône **Settings** puis cliquer **Certificate-based Authentication** > **Add Issuing CA** :
     .. thumbnail:: _images/STA_CBA1.png
@@ -175,5 +173,3 @@ Nous allons donc tester l'authentification au portail d'utilisateur STA avec une
   c. Insérer la carte CPS/CPE/CPA dans un lecteur connecté au poste de travail.
   d. Saisir le nom d'utilisateur puis **LOGIN**.
   e. Saisir le code PIN de la carte puis **OK**.
-
-    .. _a link: https://sta.eu.safenetid.com
