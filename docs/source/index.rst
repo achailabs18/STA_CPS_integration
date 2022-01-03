@@ -130,4 +130,4 @@ Configurer l'authentification par PKI côté STA
       :width: 300px
     ..
 
-  e. Répéter les étapes **a** à **d** pour les certificats de l'autorité **STANDARD** & **FORT**.
+  e. Répéter les étapes **a** à **d** pour les certificats de l'autorité **STANDARD** (l'étape 3) & **FORT** (l'étape 4).
