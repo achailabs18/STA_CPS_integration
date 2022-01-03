@@ -25,6 +25,7 @@ Prérequis
 
    <a href="https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows" target="_blank">https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows</a>
 
+..
 - Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
 
   - soit manuellement via la console d'administrateur
