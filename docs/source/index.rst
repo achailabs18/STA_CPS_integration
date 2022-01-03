@@ -50,11 +50,11 @@ Configurer l'authentification par PKI côté STA
 2. Extraire et sauvegarder les certificats
 
   a. Double-cliquer le fichier .p7b téléchargé dans l'étape précédent:
-    .. thumbnail:: _images/CAp7b_1.PNG
+    .. thumbnail:: _images/CAp7b_1.png
     ..
 
   b. Sélectionner le certificat **AC IGC-SANTE ELEMENTAIRE PERSONNES** & **AC RACINE IGC-SANTE ELEMENTAIRE**. Puis cliquer **Action** > **All Tasks** > **Export...**:
-      .. thumbnail:: _images/CertElementaire1.PNG
+      .. thumbnail:: _images/CertElementaire1.png
       ..
 
 
