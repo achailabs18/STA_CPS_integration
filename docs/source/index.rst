@@ -175,3 +175,5 @@ Nous allons donc tester l'authentification au portail d'utilisateur STA avec une
   c. Insérer la carte CPS/CPE/CPA dans un lecteur connecté au poste de travail.
   d. Saisir le nom d'utilisateur puis **LOGIN**.
   e. Saisir le code PIN de la carte puis **OK**.
+
+.. _a link: https://sta.eu.safenetid.com
