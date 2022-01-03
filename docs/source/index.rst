@@ -33,15 +33,15 @@ Prérequis
 
 Configurer l'authentification par PKI côté STA
 ==============================================
-1. Télécharger les certificats de l'autorité depuis le site IGC-Santé :
+1. Télécharger les certificats de l'autorité depuis le site IGC-Santé
 
-  - Pour les cartes de test:
+  - Pour les cartes de test :
   
    .. raw:: html
    
     <a href="http://igc-sante.esante.gouv.fr/AC%20TEST/Chaine_de_certification-IGC-Sante-TEST.p7b" target="_blank">http://igc-sante.esante.gouv.fr/AC%20TEST/Chaine_de_certification-IGC-Sante-TEST.p7b</a>
 
-  - Pour les cartes de production:
+  - Pour les cartes de production :
   
    .. raw:: html
    
@@ -49,22 +49,13 @@ Configurer l'authentification par PKI côté STA
 
 2. Extraire et sauvegarder les certificats
 
-  a. Double-cliquer le fichier .p7b téléchargé dans l'étape précédent:
+  a. Double-cliquer le fichier .p7b téléchargé dans l'étape précédent :
     .. thumbnail:: _images/CAp7b_1.png
     ..
 
-  b. Sélectionner le certificat **AC** **IGC-SANTE** **ELEMENTAIRE** **PERSONNES** & **AC** **RACINE** **IGC-SANTE** **ELEMENTAIRE**. Puis cliquer **Action** > **All** **Tasks** > **Export…**:
+  b. Sélectionner le certificat **AC** **IGC-SANTE** **ELEMENTAIRE** **PERSONNES** & **AC** **RACINE** **IGC-SANTE** **ELEMENTAIRE**. Puis cliquer **Action** > **All** **Tasks** > **Export…** :
       .. thumbnail:: _images/CertElementaire1.png
       ..
 
-  c. Cliquer **Next** puis sélectionner l'option **PKCS #7 Certificates (.P7B)**:
-      .. thumbnail:: _images/CertP7B.png
-      ..
-
-  d. Cliquer **Next** puis sélectionner l'endroit pour sauvegarder le fichier:
-      .. thumbnail:: _images/CertElementaire2.png
-      ..
-
-  e. Cliquer **Next** puis **Finish**.
 
 3. try something
