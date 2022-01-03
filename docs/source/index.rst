@@ -153,3 +153,20 @@ Nous allons créer une politique d'accès avec l'authentification par certificat
       ..
 
   c. **Save**
+
+Tester l'authentification avec une carte CPS/CPE/CPA
+====================================================
+Nous allons donc tester l'authentification au portail d'utilisateur STA avec une carte CPS/CPE/CPA.
+
+  a. Récupérer le lien du portail d'utilisateur STA
+    - Cliquer sur l'icône **Applications** > **User Portal** > Copier l'URL en cliquant sur le bouton **Copy**.
+
+      .. thumbnail:: _images/STA_CBA5.png
+        :width: 300px
+      ..
+
+  b. Ouvrir un nouvel onglet ou un navigateur web et connectez-vous à l'URL de l'étape précédent.
+  c. Insérer la carte CPS/CPE/CPA dans un lecteur connecté au poste de travail.
+  d. Saisir le nom d'utilisateur puis **LOGIN**.
+  e. Saisir le code PIN de la carte puis **OK**.
+
