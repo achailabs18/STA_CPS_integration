@@ -147,6 +147,7 @@ Nous allons créer une politique d'accès avec l'authentification par certificat
     - Sélectionner l'application "User Portal"
     - Sélectionner la méthode "Certificate-Based Authentication (CBA)"
     - Sélectionner "Every access attempt"
+
       .. thumbnail:: _images/STA_CBA4.png
         :width: 300px
       ..
