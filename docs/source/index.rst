@@ -25,14 +25,19 @@ Prérequis
 
    <a href="https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows" target="_blank">https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows</a>
 
-..
 - Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
 
   - soit manuellement via la console d'administrateur
   - soit automatiquement
 
-    - par l'agent de synchronisation LDAP
-    - par les APIs SCIM/SOAP
+    - par l'agent de synchronisation LDAP.
+    - par les APIs SCIM/REST.
+
+  Pour plus d'information :
+
+  .. raw:: html
+
+   <a href="https://www.thalesdocs.com/sta/Content/STA/Users/AddUsrs.htm" target="_blank">https://www.thalesdocs.com/sta/Content/STA/Users/AddUsrs.htm</a>
 
 Configurer l'authentification par PKI côté STA
 ==============================================
