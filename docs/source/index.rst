@@ -19,13 +19,7 @@ Prérequis
 =========
 
 - Un tenant **SafeNet Trusted Access (STA) Premium**
-- **Cryptolib CPS** installé sur le poste de travail d'utilisateur. **Cryptolib CPS** est un logiciel fourni par l'**Agence du Numérique en Santé** (**ANS**) qui permet l’interfaçage entre des applications informatiques et les cartes CPS/CPE/CPA. Pour télécharger **Cryptolib CPS** :
-
-  .. raw:: html
-
-   <a href="https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows" target="_blank">https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows</a>
-
-..
+- **Cryptolib CPS** installé sur le poste de travail d'utilisateur. **Cryptolib CPS** est un logiciel fourni par l'**Agence du Numérique en Santé** (**ANS**) qui permet l’interfaçage entre des applications informatiques et les cartes CPS/CPE/CPA. Pour télécharger **Cryptolib CPS** : https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows
 - Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
 
   - soit manuellement via la console d'administrateur
@@ -34,28 +28,15 @@ Prérequis
     - par l'agent de synchronisation LDAP.
     - par les APIs SCIM/REST.
 
-  Pour plus d'information :
-
-  .. raw:: html
-
-   <a href="https://www.thalesdocs.com/sta/Content/STA/Users/AddUsrs.htm" target="_blank">https://www.thalesdocs.com/sta/Content/STA/Users/AddUsrs.htm</a>
+  Pour plus d'information : https://www.thalesdocs.com/sta/Content/STA/Users/AddUsrs.htm
 
 Configurer l'authentification par certificat dans STA
 =====================================================
 1. Télécharger & sauvegarder les certificats d'autorité depuis le site IGC-Santé
 --------------------------------------------------------------------------------
 
-  - Pour les cartes de test :
-  
-   .. raw:: html
-   
-    <a href="http://igc-sante.esante.gouv.fr/AC%20TEST/Chaine_de_certification-IGC-Sante-TEST.p7b" target="_blank">http://igc-sante.esante.gouv.fr/AC%20TEST/Chaine_de_certification-IGC-Sante-TEST.p7b</a>
-
-  - Pour les cartes de production :
-  
-   .. raw:: html
-   
-    <a href="http://igc-sante.esante.gouv.fr/AC/Chaine_de_certification-IGC-Sante.p7b" target="_blank">http://igc-sante.esante.gouv.fr/AC/Chaine_de_certification-IGC-Sante.p7b</a>
+  - Pour les cartes de test : http://igc-sante.esante.gouv.fr/AC%20TEST/Chaine_de_certification-IGC-Sante-TEST.p7b
+  - Pour les cartes de production : http://igc-sante.esante.gouv.fr/AC/Chaine_de_certification-IGC-Sante.p7b
 
 2. Extraire et sauvegarder le certificat ELEMENTAIRE
 ----------------------------------------------------
