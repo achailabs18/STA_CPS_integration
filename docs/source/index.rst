@@ -53,7 +53,7 @@ Configurer l'authentification par PKI côté STA
     .. thumbnail:: _images/CAp7b_1.png
     ..
 
-  b. Sélectionner le certificat **AC** **IGC-SANTE** **ELEMENTAIRE** **PERSONNES** & **AC** **RACINE** **IGC-SANTE** **ELEMENTAIRE**. Puis cliquer **Action** > **All** **Tasks** > **Export…** :
+  b. test :
       .. thumbnail:: _images/CertElementaire1.png
       ..
 
