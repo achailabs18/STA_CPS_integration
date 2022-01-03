@@ -8,7 +8,6 @@ Configurer SafeNet Trusted Access (STA) pour supporter les cartes CPS/CPE/CPA en
 
 .. toctree::
    :maxdepth: 4
-   :hidden:
 
 Introduction
 ============
@@ -47,7 +46,7 @@ Configurer l'authentification par PKI côté STA
    
     <a href="http://igc-sante.esante.gouv.fr/AC/Chaine_de_certification-IGC-Sante.p7b" target="_blank">http://igc-sante.esante.gouv.fr/AC/Chaine_de_certification-IGC-Sante.p7b</a>
 
-2. Extraire et sauvegarder les certificats
+2. Extraire et sauvegarder le certificat ELEMENTAIRE
 
   a. Double-cliquer le fichier .p7b téléchargé dans l'étape précédent :
     .. thumbnail:: _images/CAp7b_1.png
