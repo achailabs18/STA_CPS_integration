@@ -31,7 +31,7 @@ Prérequis
   * \- par l'agent de synchronisation LDAP.
   * \- par les APIs SCIM/REST.
 
-  Pour plus d'information : https://www.thalesdocs.com/sta/Content/STA/Users/AddUsrs.htm
+  Pour plus d'information : https://thalesdocs.com/sta/operator/users/index.html
 
 *
 
