@@ -38,8 +38,8 @@ Prérequis
 4. Les numéros d'**Identification Nationale du PS** de ces utilisateurs doivent également être renseignés dans le référentiel d'utilisateurs STA. Si ces numéros sont présents dans le référentiel de l'établissement de santé, ils peuvent aussi être synchronisés vers les champs **Alias** / **Custom Field** des comptes d'utilisateur STA.
 
   * \- Pour info, ces numéros d'**Identification Nationale du PS** correspondent aux données **PS_IdNat** définies dans la documentation ANS suivante : https://esante.gouv.fr/sites/default/files/media_entity/documents/ci-sis_anx_sources-donnees-professionnels-structures_v1.5_0.pdf (voir la section "5.4.  PS_IdNat", P.20 - 21)
-  * \- Ce numéro est donc la contatenation du *type d’identifiant (0 à 9)* et de l’**identifiant national**
-  * \- Par ex., un médecin ayant un numéro RPPS aurait le numéro suivant : *8* **01234567890**
+  * \- Ce numéro est donc la contatenation du **type d’identifiant (0 à 9)** et de l’*identifiant national*
+  * \- Par ex., un médecin ayant un numéro RPPS aurait le numéro suivant : **8**01234567890
   * \- Ce numéro se trouvent également dans l'attribut **CN** du champ **Subject** du certificat de l'utilisateur. Par ex. :
 
     .. thumbnail:: _images/CertUser1.png
