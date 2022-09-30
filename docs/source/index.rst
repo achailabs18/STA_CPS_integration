@@ -23,8 +23,7 @@ Prérequis
 3. Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
 
   * soit manuellement via la console d'administrateur
-  * soit automatiquement::
-
+  * soit automatiquement
     * par l'agent de synchronisation LDAP.
     * par les APIs SCIM/REST.
 
