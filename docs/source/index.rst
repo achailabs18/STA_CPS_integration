@@ -20,16 +20,6 @@ Prérequis
 
 - Un tenant **SafeNet Trusted Access (STA) Premium**
 - **Cryptolib CPS** installé sur le poste de travail d'utilisateur. **Cryptolib CPS** est un logiciel fourni par l'**Agence du Numérique en Santé** (**ANS**) qui permet l’interfaçage entre des applications informatiques et les cartes CPS/CPE/CPA. Pour télécharger **Cryptolib CPS** : https://esante.gouv.fr/services/espace-cps/telechargements-libres/cryptolib-cps-windows
-- Les utilisateurs des cartes CPS/CPE/CPA importés dans le tenant STA
-
-  - soit manuellement via la console d'administrateur
-  - soit automatiquement
-
-    - par l'agent de synchronisation LDAP.
-    - par les APIs SCIM/REST.
-    
-  Pour plus d'information : https://www.thalesdocs.com/sta/Content/STA/Users/AddUsrs.htm
-  
 - Les numéros d'**Identification Nationale du PS** de ces utilisateurs doivent également être renseignés dans le référentiel d'utilisateurs STA. Si ces numéros sont présents dans le référentiel de l'établissement de santé, ils peuvent aussi être synchronisés vers les champs Alias / Custom Field des comptes d'utilisateur STA.
 
 Configurer l'authentification par certificat dans STA
