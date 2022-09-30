@@ -29,7 +29,8 @@ Prérequis
     - par les APIs SCIM/REST.
 
   Pour plus d'information : https://www.thalesdocs.com/sta/Content/STA/Users/AddUsrs.htm
-    - Les numéros d'**Identification Nationale du PS** de ces utilisateurs doivent également être renseignés dans le référentiel d'utilisateurs STA. Si ces numéros sont présents dans le référentiel de l'établissement de santé, ils peuvent aussi être synchronisés vers les champs Alias / Custom Field des comptes d'utilisateur STA.
+  
+- Les numéros d'**Identification Nationale du PS** de ces utilisateurs doivent également être renseignés dans le référentiel d'utilisateurs STA. Si ces numéros sont présents dans le référentiel de l'établissement de santé, ils peuvent aussi être synchronisés vers les champs Alias / Custom Field des comptes d'utilisateur STA.
 
 Configurer l'authentification par certificat dans STA
 =====================================================
