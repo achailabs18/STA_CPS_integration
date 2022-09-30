@@ -24,8 +24,10 @@ Prérequis
 
   * soit manuellement via la console d'administrateur
   * soit automatiquement
-    * par l'agent de synchronisation LDAP.
-    * par les APIs SCIM/REST.
+  
+    - par l'agent de synchronisation LDAP.
+    - par les APIs SCIM/REST.
+  
 
 4. Les numéros d'**Identification Nationale du PS** de ces utilisateurs doivent également être renseignés dans le référentiel d'utilisateurs STA. Si ces numéros sont présents dans le référentiel de l'établissement de santé, ils peuvent aussi être synchronisés vers les champs Alias / Custom Field des comptes d'utilisateur STA.
 
