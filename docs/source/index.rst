@@ -35,9 +35,8 @@ Prérequis
   - Ce numéro est donc une contatenation du **type d’identifiant** (0 à 9) et de l’**identifiant national**
   - Par ex., un médecin ayant un numéro RPPS aurait le numéro suivant : 801234567890
   - Ce numéro se trouvent également dans l'attribut **CN** du champ **Subject** du certificat de l'utilisateur. Par ex. :
-    .. thumbnail:: _images/CertUser1.png
-      :width: 300px
-    ..
+  .. thumbnail:: _images/CertUser1.png
+  ..
 
 Configurer l'authentification par certificat dans STA
 =====================================================
