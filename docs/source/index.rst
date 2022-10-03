@@ -125,7 +125,7 @@ Configurer l'authentification par certificat dans STA
 
   c. Sélectionner le fichier .p7b (**ELEMENTAIRE**) généré dans l'étape 2.
 
-  d. Sélectionner **Common name** comme **CERTIFICATE ATTRIBUTE** & et le champ **Alias** / **Custom Field** (contenant le numéros d'**Identification Nationale du PS**) comme **USER ATTRIBUTE** dans **User Mapping** > **Save** :
+  d. Sélectionner **Common name** comme **CERTIFICATE ATTRIBUTE** et le champ **Alias** / **Custom Field** (contenant le numéros d'**Identification Nationale du PS**) comme **USER ATTRIBUTE** dans **User Mapping** > **Save** :
     .. thumbnail:: _images/STA_CBA2.png
       :width: 300px
     ..
